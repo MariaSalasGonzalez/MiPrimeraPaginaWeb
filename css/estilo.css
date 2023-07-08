@@ -1,0 +1,145 @@
+@import "fuente.css";
+
+body{
+    background-color: white;
+    margin: 0;
+}
+
+/* Titulos Articulos */
+h1{
+    font-family: Helvetica, Arial, sans-serif;
+    color: rgb(3, 3, 3);
+    text-align: center;
+    font-size: 1em;
+    font-style: italic;
+}
+
+/* Linea Gruesa */
+hr{ 
+    height: 5px;
+    background-color: rgba(3, 3, 3); 
+}
+
+div{
+    float: center;
+    text-align: center;
+}
+
+li{
+    text-align: left;
+}
+
+header{
+    border: 1px solid white;
+    text-align: middle;
+}
+
+header img{
+    width: 20%;
+    border-radius: 5%;
+    text-align: middle;
+}
+
+/* Identificador */
+#titulo{
+    font-family: pacifico, Verdana;
+    font-size: 2.3em;
+}
+
+/* Estilo Menu Navegacion */
+nav {
+    background-color: rgb(8, 65, 16);
+    padding: 2% 3%;
+    text-align: center;
+}
+
+nav a{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1% 2%;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav a:hover{
+    background-color: white;
+    color: rgb(0, 0, 0);  
+}
+
+aside{
+    float: right;
+    width: 20%;
+}
+
+column{
+    float: left;
+}
+
+.container{
+    display: grid;
+    grid-template: 200px 250px 200px 150px / 31% 31% 31%;
+    grid-gap: 30px 30px;
+}
+
+/*Estilos Parrafos*/
+.estiloParrafo{
+    font-size: 1em;
+    text-align: center;
+}
+
+.estiloParrafo1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(15, 11, 11);
+}
+
+/*Contenedores*/
+#contenedor1{
+    background-color: rgb(255, 255, 255);
+    float: left;
+}
+
+#contenedor2{
+    background-color: rgba(255, 255, 255);
+    border: 5px solid rgba(218, 170, 12, 0.795); 
+    float: left; 
+}
+
+#contenedor3{
+    background-color: rgba(255, 255, 255);
+    float: left;
+}
+
+article{
+   text-align: center; 
+}
+
+#contenedorVideo{
+    width: 80%;
+}
+
+/*Boton Inicio*/
+#backToTop{
+    display: none;
+    position: fixed;
+    bottom: 5%;
+    right: 8%;
+    z-index: 99;
+    font-size: 1.125em;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: white;
+    padding: .9375em;
+    border-radius: .4em;
+    cursor: pointer;
+}
+
+#backToTop:hover{
+    background-color: black;
+}
+
+footer{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
